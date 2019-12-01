@@ -1,0 +1,2 @@
+include ':app', ':rxjava2'
+rootProject.name='PtrAndroidStu'
