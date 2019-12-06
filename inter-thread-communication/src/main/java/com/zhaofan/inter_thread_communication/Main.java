@@ -8,5 +8,7 @@ public class Main {
 //        waitDemo.runTest();
         CustomizableThreadDemo customizableThreadDemo = new CustomizableThreadDemo();
         customizableThreadDemo.runTest();
+
+
     }
 }

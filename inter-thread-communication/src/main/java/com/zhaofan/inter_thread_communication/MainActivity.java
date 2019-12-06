@@ -6,6 +6,8 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 
+import java.util.concurrent.Executor;
+
 public class MainActivity extends AppCompatActivity {
     private static final String MONITOR = "MainActivity";
     private ThreadLocal<Integer> threadLocal;
@@ -22,6 +24,10 @@ public class MainActivity extends AppCompatActivity {
 
         Handler handler = new Handler();
         handler.getLooper();
+
+        MyAsyncTask myAsyncTask = new MyAsyncTask();
+        myAsyncTask.execute();
+
     }
 
     private class MyAsyncTask extends AsyncTask<Void,Void,Void>{
@@ -36,6 +42,9 @@ public class MainActivity extends AppCompatActivity {
             super.onPostExecute(aVoid);
         }
     }
+
+
+
     synchronized void methodA(){
         //......
     }
