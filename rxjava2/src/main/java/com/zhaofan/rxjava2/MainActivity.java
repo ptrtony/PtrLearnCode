@@ -106,6 +106,7 @@ public class MainActivity extends AppCompatActivity {
         Observable
                 .interval(1, TimeUnit.SECONDS)
                 .observeOn(Schedulers.newThread())
+                .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Consumer<Long>() {
                     @Override
