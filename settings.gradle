@@ -1,2 +1,2 @@
-include ':app', ':rxjava2', ':inter-thread-communication', ':more-thread-execute'
+include ':app', ':rxjava2', ':inter-thread-communication', ':more-thread-execute', ':imagemeasure-xfermode'
 rootProject.name='PtrAndroidStu'
