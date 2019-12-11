@@ -21,7 +21,6 @@ public class DashBoardView extends View {
     PathDashPathEffect pathDashPathEffect;
     Path dash = new Path();
     Path path = new Path();
-//    Paint pointer = new Paint(Paint.ANTI_ALIAS_FLAG);
     PathMeasure pathMeasure ;
     public DashBoardView(Context context) {
         super(context);
@@ -38,9 +37,6 @@ public class DashBoardView extends View {
     {
         paint.setStrokeWidth(4);
         paint.setStyle(Paint.Style.STROKE);
-
-//        pointer.setStrokeWidth(4);
-//        pointer.setStyle(Paint.Style.STROKE);
 
         dash.addRect(0,0,DisplayUtils.dpToPx(2),DisplayUtils.dpToPx(10), Path.Direction.CCW);
     }

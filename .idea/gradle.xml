@@ -13,6 +13,7 @@
             <option value="$PROJECT_DIR$/inter-thread-communication" />
             <option value="$PROJECT_DIR$/more-thread-execute" />
             <option value="$PROJECT_DIR$/rxjava2" />
+            <option value="$PROJECT_DIR$/text-transformation-view" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
