@@ -21,7 +21,7 @@ public class CameraView extends View {
     Camera camera = new Camera();
     public CameraView(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
-    }
+    }//
 
     {
         image = BitmapUtils.getAvatar(getContext(), IMAGE_WIDTH);
