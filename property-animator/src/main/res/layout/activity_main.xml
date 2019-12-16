@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="animate"
+        android:textAllCaps="false"
+        android:onClick="onAnimateClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="objectAnimator"
+        android:textAllCaps="false"
+        android:onClick="onObjectAnimatorClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="objectAnimatorSet"
+        android:textAllCaps="false"
+        android:onClick="onObjectAnimatorSetClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="propertyValuesHolder"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:onClick="onPropertyValuesHolderClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="keyframe"
+        android:textAllCaps="false"
+        android:onClick="onKeyframeClick"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="typeEvaluator"
+        android:textAllCaps="false"
+        android:onClick="onBeizerEvaluatorClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="onTextEvaluator"
+        android:textAllCaps="false"
+        android:onClick="onTextEvaluatorClick"/>
+</LinearLayout>

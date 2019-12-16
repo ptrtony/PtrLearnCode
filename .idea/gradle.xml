@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/imagemeasure-xfermode" />
             <option value="$PROJECT_DIR$/inter-thread-communication" />
             <option value="$PROJECT_DIR$/more-thread-execute" />
+            <option value="$PROJECT_DIR$/property-animator" />
             <option value="$PROJECT_DIR$/rxjava2" />
             <option value="$PROJECT_DIR$/text-transformation-view" />
           </set>
