@@ -1,2 +1,2 @@
-include ':app', ':rxjava2', ':inter-thread-communication', ':more-thread-execute', ':imagemeasure-xfermode', ':text-transformation-view', ':property-animator'
+include ':app', ':rxjava2', ':inter-thread-communication', ':more-thread-execute', ':imagemeasure-xfermode', ':text-transformation-view', ':property-animator', ':drawble-bitmap-convert'
 rootProject.name='PtrAndroidStu'

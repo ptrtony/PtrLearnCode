@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/drawble-bitmap-convert" />
             <option value="$PROJECT_DIR$/imagemeasure-xfermode" />
             <option value="$PROJECT_DIR$/inter-thread-communication" />
             <option value="$PROJECT_DIR$/more-thread-execute" />
