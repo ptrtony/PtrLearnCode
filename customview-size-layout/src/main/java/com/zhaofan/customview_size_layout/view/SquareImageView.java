@@ -1,0 +1,28 @@
+package com.zhaofan.customview_size_layout.view;
+
+import android.content.Context;
+import android.util.AttributeSet;
+import androidx.appcompat.widget.AppCompatImageView;
+
+public class SquareImageView extends AppCompatImageView {
+    public SquareImageView(Context context, AttributeSet attrs) {
+        super(context, attrs);
+    }
+
+    @Override
+    protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        super.onMeasure(widthMeasureSpec,heightMeasureSpec);
+        int measureWidth = getMeasuredWidth();
+        int measureHeight = getMeasuredHeight();
+        int size = Math.max(measureWidth,measureHeight);
+        setMeasuredDimension(size,size);
+    }
+
+    //    @Override
+//    public void layout(int l, int t, int r, int b) {
+//        int width = l+r;
+//        int height = t+b;
+//        int size = Math.min(width,height);
+//        super.layout(l, t, size, size);
+//    }
+}
